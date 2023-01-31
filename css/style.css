@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #171713;
+}
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-image: -webkit-linear-gradient(#752BE3, #C30EC9);
+
+    position: fixed;
+    width: 100%;
+    
+}
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.apptools {
+    display: flex;
+    gap: 30px;
+}
+.usertools {
+    display: flex;
+    gap: 20px;
+}
+main {
+    height: 200vh;
+    width: auto;
+    border: 1px solid red;
+}
+.movie {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
