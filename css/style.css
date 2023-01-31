@@ -8,6 +8,7 @@
     height: 100%;
     box-sizing: border-box;
     background-color: #171713;
+    font-family: Roboto Mono;
 }
 header {
     height: 80px;
@@ -19,6 +20,7 @@ header {
 
     position: fixed;
     width: 100%;
+    font-weight: 500;
     
 }
 ul {
