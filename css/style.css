@@ -39,10 +39,49 @@ ul {
 main {
     height: 200vh;
     width: auto;
+    padding-top: 80px;
+}
+.container-movie {
+    width: auto;
+    height: fit-content;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
 .movie {
     width: 100px;
     height: 100px;
     background-color: white;
+    width: 1180px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+}
+.info {
+    background-color: gray;
+    width: 400px;
+    height: 280px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    height: 80vh;
+    border: 1px solid red;
+}
+.foot {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+    border: 1px solid red;
+}
+button {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: none;
 }
