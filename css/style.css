@@ -37,7 +37,7 @@ ul {
     gap: 20px;
 }
 main {
-    height: 200vh;
+    height: fit-content;
     width: auto;
     padding-top: 80px;
 }
@@ -104,4 +104,38 @@ button {
     gap: 5px;
     border-radius: 5px;
     border: none;
+}
+.continue {
+    border: 1px solid red;
+    height: 250px;
+    max-width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    gap: 30px;
+    padding-left: 30px;
+    align-items: center;
+    overflow-x: scroll;
+}
+.minha-lista {
+    border: 1px solid red;
+    height: 250px;
+    max-width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 30px;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+}
+.thumb {
+    background-color: white;
+    min-width: 320px;
+    height: 200px;
+    border-radius: 5px;
+    position: static;
+}
+footer {
+    border: 1px solid red;
+    width: auto;
+    height: 300px;
 }
