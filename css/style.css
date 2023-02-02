@@ -10,7 +10,7 @@
     background-color: #171713;
     font-family: Roboto Mono;
 }
-header {
+.menu {
     height: 80px;
     display: flex;
     align-items: center;
