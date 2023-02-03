@@ -23,6 +23,34 @@
     font-weight: 500;
     
 }
+.drop-down {
+    display: inline-block;
+    position: relative;
+}
+.drop-down-content {
+    display: none;
+    position: absolute;
+}
+.drop-down:hover {
+    background-color: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.drop-down:hover p {
+    background-color: rgba(0, 0,0, .2);
+    margin: 1px;
+    border-radius: 2px;
+}
+.drop-down:hover .drop-down-content {
+    display: block;
+    box-shadow: 2px 2px 2px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    min-width: 100%;
+    background-color: white;
+}
 ul {
     display: flex;
     gap: 40px;
