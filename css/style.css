@@ -42,6 +42,10 @@
     margin: 1px;
     border-radius: 2px;
 }
+.drop-down:hover a {
+    text-decoration: none;
+    color: black;
+}
 .drop-down:hover .drop-down-content {
     display: block;
     box-shadow: 2px 2px 2px black;
