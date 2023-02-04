@@ -56,18 +56,39 @@
     min-width: 100%;
     background-color: white;
 }
-.user {
-    display: relative;
-    border: 1px solid red;
+
+.drop {
+    display: inline-block;
+    position: relative;
 }
 .drop-user {
     display: none;
     position: absolute;
 }
-.user:hover .drop-user {
-    display: block;
-    border: 1px solid red;
+.drop:hover {
+    cursor: pointer;
 }
+.drop p:hover {
+    background-color: rgba(0, 0,0, .2);
+    margin: 1px;
+    border-radius: 2px;
+}
+.drop:hover a {
+    text-decoration: none;
+    color: black;
+}
+.drop:hover .drop-user {
+    display: block;
+    box-shadow: 2px 2px 2px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    min-width: 70px;
+    background-color: white;
+}
+
+
+
 ul {
     display: flex;
     gap: 40px;
