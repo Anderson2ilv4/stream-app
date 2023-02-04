@@ -56,7 +56,6 @@
     min-width: 100%;
     background-color: white;
 }
-
 .drop {
     display: inline-block;
     position: relative;
@@ -86,9 +85,6 @@
     min-width: 70px;
     background-color: white;
 }
-
-
-
 ul {
     display: flex;
     gap: 40px;
