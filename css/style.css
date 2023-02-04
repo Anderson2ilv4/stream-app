@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 0px 60px;
     background-image: -webkit-linear-gradient(#752BE3, #C30EC9);
 
     position: fixed;
@@ -55,6 +55,18 @@
     color: black;
     min-width: 100%;
     background-color: white;
+}
+.user {
+    display: relative;
+    border: 1px solid red;
+}
+.drop-user {
+    display: none;
+    position: absolute;
+}
+.user:hover .drop-user {
+    display: block;
+    border: 1px solid red;
 }
 ul {
     display: flex;
