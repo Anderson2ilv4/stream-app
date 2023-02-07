@@ -113,12 +113,10 @@ main {
 .container-movie {
     width: auto;
     height: fit-content;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
 }
 .movie {
-    background-color: white;
     width: 854px;
     height: 480px;
     display: flex;
@@ -126,8 +124,17 @@ main {
     justify-content: space-between;
     box-sizing: border-box;
 }
+.movie-info {
+    width: 854px;
+    height: 480px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
 .info {
-    background-color: gray;
     width: 400px;
     height: 280px;
     margin: 25px;
@@ -136,7 +143,6 @@ main {
 }
 .description {
     height: 80vh;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +155,6 @@ main {
     align-items: center;
     gap: 10px;
     padding: 0px 10px;
-    border: 1px solid red;
 }
 .indicacao {
     width: 50px;
