@@ -190,6 +190,9 @@ button {
     align-items: center;
     overflow-x: scroll;
 }
+.continue::-webkit-scrollbar {
+    display: none;
+}
 .minha-lista {
     border: 1px solid red;
     height: 250px;
@@ -200,6 +203,9 @@ button {
     padding-left: 30px;
     overflow-x: scroll;
     margin-bottom: 30px;
+}
+.minha-lista::-webkit-scrollbar {
+    display: none;
 }
 .thumb {
     background-color: white;
