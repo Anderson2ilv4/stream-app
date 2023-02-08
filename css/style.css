@@ -116,6 +116,7 @@ main {
     height: fit-content;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .movie {
     width: 854px;
@@ -184,11 +185,15 @@ button {
     height: 250px;
     max-width: 100%;
     display: flex;
-    margin: 30px 0px;
     gap: 30px;
     padding-left: 30px;
+    margin-bottom: 30px;
     align-items: center;
     overflow-x: scroll;
+}
+label {
+    margin-left: 30px;
+    color: white;
 }
 .continue::-webkit-scrollbar {
     display: none;
