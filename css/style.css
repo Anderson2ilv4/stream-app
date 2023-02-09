@@ -213,7 +213,7 @@ label {
     display: none;
 }
 .thumb {
-    background-color: white;
+    background-color: #1f1f15;
     min-width: 320px;
     height: 200px;
     border-radius: 5px;
