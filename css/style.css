@@ -180,6 +180,9 @@ button {
     border-radius: 5px;
     border: none;
 }
+.content-scroll {
+    border: 1px solid red;
+}
 .continue {
     border: 1px solid red;
     height: 250px;
