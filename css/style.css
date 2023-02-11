@@ -220,7 +220,6 @@ label {
     position: static;
 }
 footer {
-    border: 1px solid red;
     width: auto;
     height: fit-content;
     padding: 10px;
