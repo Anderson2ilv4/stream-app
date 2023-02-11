@@ -223,4 +223,18 @@ footer {
     border: 1px solid red;
     width: auto;
     height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    display: inline-block;
+}
+footer a:hover {
+    color: rgb(70, 67, 67);
+}
+.social img {
+    width: 30px;
 }
