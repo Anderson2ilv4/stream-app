@@ -222,10 +222,16 @@ label {
 footer {
     border: 1px solid red;
     width: auto;
-    height: 300px;
+    height: fit-content;
     padding: 10px;
     display: flex;
+    flex-direction: column;
+    
+}
+.footer-hypertext {
+    display: flex;
     justify-content: space-between;
+    color: rgb(128, 128, 128);
 }
 footer a {
     text-decoration: none;
@@ -237,4 +243,14 @@ footer a:hover {
 }
 .social img {
     width: 30px;
+}
+.copyright-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+.copyright-info img {
+    width: 10px;
 }
