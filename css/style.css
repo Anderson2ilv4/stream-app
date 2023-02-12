@@ -10,7 +10,6 @@
     box-sizing: border-box;
     background-color: #171713;
     font-family: Roboto Mono;
-    color: white;
 }
 .menu {
     height: 80px;
@@ -259,8 +258,15 @@ footer a:hover {
 .head {
     padding: 20px;
     display: flex;
-    gap: 10px;
+    color: white;
+    align-items: center;
+    border: 1px solid red;
 }
 .head img {
     width: 20px;
+    border: 1px solid red;
+}
+.content {
+    width: 100%;
+    min-height: 90vh;
 }
