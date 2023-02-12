@@ -216,6 +216,7 @@ label {
 .thumb {
     background-color: #1f1f15;
     min-width: 320px;
+    max-width: 320px;
     height: 200px;
     border-radius: 5px;
     position: static;
@@ -258,8 +259,13 @@ footer a:hover {
 .head {
     padding: 20px;
     display: flex;
-    color: white;
+    gap: 10px;
     align-items: center;
+    color: white;
+    border: 1px solid red;
+}
+.head h1 {
+    font-size: 14pt;
     border: 1px solid red;
 }
 .head img {
@@ -269,4 +275,5 @@ footer a:hover {
 .content {
     width: 100%;
     min-height: 90vh;
+    padding: 20px;
 }
