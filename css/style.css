@@ -1,3 +1,4 @@
+/*common settings*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     box-sizing: border-box;
     background-color: #171713;
     font-family: Roboto Mono;
+    color: white;
 }
 .menu {
     height: 80px;
@@ -252,4 +254,13 @@ footer a:hover {
 }
 .copyright-info img {
     width: 10px;
+}
+/*minha lista settings*/
+.head {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.head img {
+    width: 20px;
 }
