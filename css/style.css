@@ -265,9 +265,14 @@ footer a:hover {
     border: 1px solid red;
 }
 .head-content {
-    width: 100px;
-    height: 50px;
-    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+}
+.head-content img {
+    width: 20px;
+    height: 20px;
 }
 .content {
     width: 100%;
