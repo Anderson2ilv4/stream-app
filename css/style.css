@@ -264,12 +264,9 @@ footer a:hover {
     color: white;
     border: 1px solid red;
 }
-.head h1 {
-    font-size: 14pt;
-    border: 1px solid red;
-}
-.head img {
-    width: 20px;
+.head-content {
+    width: 100px;
+    height: 50px;
     border: 1px solid red;
 }
 .content {
