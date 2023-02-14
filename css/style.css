@@ -49,6 +49,9 @@
     text-decoration: none;
     color: black;
 }
+.drop-down #categorias:hover {
+    color: white;
+}
 .drop-down:hover .drop-down-content {
     display: block;
     box-shadow: 2px 2px 2px black;
@@ -269,6 +272,7 @@ footer a:hover {
     height: fit-content;
     display: flex;
     gap: 20px;
+    color: white;
 }
 .head-content img {
     width: 20px;
@@ -278,4 +282,10 @@ footer a:hover {
     width: 100%;
     min-height: 90vh;
     padding: 20px;
+}
+/*categorias style*/
+head {
+    height: 200px;
+    width: auto;
+    border: 1px solid red;
 }
