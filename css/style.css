@@ -293,4 +293,5 @@ head {
 }
 #main {
     padding: 0;
+    min-height: 80vh;
 }
