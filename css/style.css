@@ -34,7 +34,6 @@
     position: absolute;
 }
 .drop-down:hover {
-    background-color: black;
     color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -47,7 +46,6 @@
 }
 .drop-down:hover a {
     text-decoration: none;
-    color: black;
 }
 .drop-down #categorias:hover {
     color: white;
