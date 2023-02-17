@@ -332,4 +332,17 @@ head {
     background-image: -webkit-linear-gradient(#752BE3, #C30EC9);
     border: none;
 }
+#btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px black;
+}
+.form-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-links a {
+    font-size: 12px;
+    color: black;
+}
 
