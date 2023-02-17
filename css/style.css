@@ -345,4 +345,38 @@ head {
     font-size: 12px;
     color: black;
 }
+/*sign up*/
+.container-signup {
+    height: 100vh;
+    width: auto;
+    background-color: #171713;
+    font-family: Roboto Mono;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.container-signup a {
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    border: 2px outset;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0px 0px 5px gray;
+}
+#input {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
 
